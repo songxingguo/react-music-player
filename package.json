@@ -1,6 +1,7 @@
 {
   "name": "react-music-player",
   "version": "1.0.0",
+  "homepage": "https://songxingguo.github.io/react-music-player",
   "description": "music player build by react",
   "main": "app/index.js",
   "scripts": {
@@ -15,6 +16,7 @@
   "author": "songxingguo",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.0",
     "pubsub-js": "^1.5.4",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
