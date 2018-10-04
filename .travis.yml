@@ -31,4 +31,4 @@ branches:
 env:
  global:
   # Github Pages
-  - GH_REF: github.com/songxingguo/gallery-by-react.git
+  - GH_REF: github.com/songxingguo/react-music-player.git
