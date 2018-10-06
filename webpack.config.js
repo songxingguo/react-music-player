@@ -11,8 +11,7 @@ module.exports = {
     ],
     output: {
         path: path.join(__dirname, '/dist/'),
-        filename: '[name].js',
-        publicPath: './'
+        filename: '[name].js'
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -52,6 +51,10 @@ module.exports = {
             {
                 test: /\.less/,
                 loader: 'style-loader!css-loader!less-loader'
+            },
+            {
+                test: /\.(png|jpg|gif)$/,
+                loader: 'file-loader'
             }
         ]
     }
