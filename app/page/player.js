@@ -94,7 +94,7 @@ let Player = React.createClass({
 	                			<i className="icon next ml20" onClick={this.playNext}></i>
                 			</div>
                 			<div className="-col-auto">
-                				<i className="icon" ></i>
+                				<i className="icon repeat-random" ></i>
                 			</div>
                 		</div>
                 	</div>
